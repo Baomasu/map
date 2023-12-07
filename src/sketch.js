@@ -19,6 +19,7 @@ function draw() {
 
 function mousePressed(){
   sample.create(mouseX,mouseY);
+  sample.dataPrint();
 }
 
 function keyTyped() {

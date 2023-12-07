@@ -15,7 +15,12 @@ class SampleSystem {
   draw(){
     for(var n = 0; n < this.samples.length; ++n){
       this.pin(this.samples[n].x, this.samples[n].y);
-      console.log(this.samples[n].x, "と", this.samples[n].y);
+    }
+  }
+
+  dataPrint(){
+    for(var n = 0; n < this.samples.length; ++n){
+      console.log(this.samples[n].x, this.samples[n].y);
       console.log(this.text[n]);
     }
     console.log("LILILILILILILILILILI");
